@@ -1,0 +1,382 @@
+<!DOCTYPE>
+<html class="js">
+<head>
+<title>Hotel - Events</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/icon">
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.css" rel='stylesheet' type='text/css' />
+
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="css/jquery-ui.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/responsive-layout.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="screen" />
+<!--<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<section>
+  <div class="header">
+     <div class="container">
+ <nav class="navbar navbar-default">
+   
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand " href="index.php"><img src="images/logo.png"></a>
+      </div>
+      <div id="navbar1" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav ">
+        <li><a href="index">Home</a></li>
+        <li><a href="eat-and-drink">Eat &amp; Drinks</a></li>
+        <li><a href="rooms">Rooms</a></li>
+        <li><a href="events">Events</a></li>
+        <li><a href="gallery">Gallery</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="contact">Contact</a></li>
+      </ul>
+      </div>
+      <!--/.nav-collapse -->
+   
+    <!--/.container-fluid -->
+  </nav>
+  </div>
+  
+  
+  
+  
+    <script>
+ $('.container').magnificPopup({
+          delegate: 'article figure a',
+          type: 'image',
+          gallery:{enabled:true},
+          image: {
+             titleSrc: function(item) {
+             return item.el.parents('article').find('h2').html() +   item.el.parents('article').find('figcaption').html();
+             }
+       }
+      });
+	  </script>   </div>
+  <div class="clearfix"></div>
+  <div class="home-banner inner-banner-title">
+    <div class="heading text-center">
+      <h4>EVENTS</h4>
+    </div>
+  </div>
+  <div class="inner-banner "> <img src="images/home-page/event.jpg"/> </div>
+  <div class="overlay overlay-inner"></div>
+  <div class="clearfix"></div>
+</section>
+<section>
+  <div class="container">
+  <div class="eat-drink-part events-inner">
+    <div class="event-content text-center">
+    <h4>EVENT PLANNING </h4>
+     <p>For corporate events, Nova Sky offer luxury conference facility, Erbil in an impeccable setting, ideal for a conference of more than so guests. Superlative environment, meeting the requirements of a conference Hotel in Erbil, the venue offers excellent sound system for closed-door meetings, private get-togethers and Meals events are ideal for formal dinners and theme parties.</p>
+    
+     
+    </div>
+    
+     <div class="clearfix"></div>
+    <div class="event-content text-center">
+    <h4>WEDDINGS </h4>
+     <p>Sophistication.Style.Glamour.The ultimate in luxury city weddings. At our hotel, we understand that every wedding - no matter how large or small - involves many details to be looked after. Of course, your dedicated wedding specialist is on hand to answer any questions or concerns you may have.</p> 
+
+     <span>From elegant floral designs to exquisite gastronomic menus and photogenic backdrops, we can organize a wedding like no other. Our Bridal Concierge is dedicated to providing sophistication, style and glamour under one roof</span>
+    </div>
+    
+    <div class="clearfix"></div>
+    <!--<div class="event-content text-center">
+    <h4>CATERING</h4>
+     <p>I'm a paragraph. Click here to add your own text and edit me. It's easy.</p>
+    <span>Just click "Edit Text" or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I'm a great place for you to tell a story and let your users know a little more about you.</span>
+    </div>-->
+    
+    
+    
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-area">
+
+<p>&copy; 2025 by Hotel Nova Sky.</p>
+
+
+</div>
+
+  
+</footer>
+
+<!---->
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/active.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+
+ <script>
+// jQuery
+jQuery(document).ready(function($) {
+  $('#datepicker-8').datepicker({
+   //  autoclose: true,
+	dateFormat: "dd-mm-yy",
+	minDate: 0,
+	onSelect: function(selected) {
+          $("#datepicker-9").datepicker("option","minDate", selected)
+        }
+	
+  });
+  
+   $("#datepicker-9").datepicker({ 
+   		dateFormat: "dd-mm-yy",
+		minDate: 0,
+        onSelect: function(selected) {
+           $("#datepicker-8").datepicker("option","maxDate", selected)
+        }
+    });  
+});
+
+
+$(document).ready(function () {
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
+});
+  </script>
+
+
+<!--
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('.hold').addClass('hold2');
+  } else {
+    $('.hold').removeClass('hold2 ');
+  }
+});	
+
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('.eat-drink-part').addClass('eat-drink-part2');
+  } else {
+    $('.eat-drink-part').removeClass('eat-drink-part2 ');
+  }
+});	
+
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('.events-inner').addClass('events-inner2');
+  } else {
+    $('.events-inner').removeClass('events-inner2 ');
+  }
+});	
+
+
+
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('.navbar-brand').addClass('navbar-brand2');
+  } else {
+    $('.navbar-brand').removeClass('navbar-brand2 ');
+  }
+});	-->
+
+</script>
+<script type="text/javascript" src="js/sticky.js"></script>
+<script src="js/modernizr.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        controlNav: "thumbnails",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+	
+
+
+//sidebar
+$(".sidebar").stick_in_parent({
+    offset_top: 10
+});
+ </script>
+<script>
+$('.parent-container').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+$('.parent-container').magnificPopup({ 
+  type: 'image',
+  delegate: 'a',
+  
+  gallery:{enabled:true},
+  callbacks: {
+    
+    buildControls: function() {
+      // re-appends controls inside the main container
+      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+    }
+    
+  }
+});
+
+
+</script>
+
+<script>
+$('.parent-container1').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+$('.parent-container1').magnificPopup({ 
+  type: 'image',
+  delegate: 'a',
+  
+  gallery:{enabled:true},
+  callbacks: {
+    
+    buildControls: function() {
+      // re-appends controls inside the main container
+      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+    }
+    
+  }
+});
+
+
+</script>
+
+<script>
+$('.parent-container2').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+$('.parent-container2').magnificPopup({ 
+  type: 'image',
+  delegate: 'a',
+  
+  gallery:{enabled:true},
+  callbacks: {
+    
+    buildControls: function() {
+      // re-appends controls inside the main container
+      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+    }
+    
+  }
+});
+
+
+</script>
+
+
+<script>
+$('.parent-container3').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+$('.parent-container3').magnificPopup({ 
+  type: 'image',
+  delegate: 'a',
+  
+  gallery:{enabled:true},
+  callbacks: {
+    
+    buildControls: function() {
+      // re-appends controls inside the main container
+      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+    }
+    
+  }
+});
+
+
+</script>
+
+<script>
+$('.parent-container4').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+$('.parent-container4').magnificPopup({ 
+  type: 'image',
+  delegate: 'a',
+  
+  gallery:{enabled:true},
+  callbacks: {
+    
+    buildControls: function() {
+      // re-appends controls inside the main container
+      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+    }
+    
+  }
+});
+
+
+</script>
+
+
+<script>
+$('.parent-container5').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+$('.parent-container5').magnificPopup({ 
+  type: 'image',
+  delegate: 'a',
+  
+  gallery:{enabled:true},
+  callbacks: {
+    
+    buildControls: function() {
+      // re-appends controls inside the main container
+      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+    }
+    
+  }
+});
+
+
+</script></html>

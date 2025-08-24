@@ -1,0 +1,957 @@
+/*
+Responsive Layout CSS
+
+*/
+
+
+@media only screen and (max-width: 767px) {
+body{
+	 overflow-x: hidden;
+}
+
+.mfp-bg{
+	display:none;
+}
+
+.mfp-gallery{
+	display:none;
+}
+
+
+
+nav ul {
+ left: 0;
+ margin-left: 0 !important;
+ top: 50px;
+ width: 100%;
+}
+.header {
+ z-index: 99;
+}
+.navbar-collapse {
+ background-color: rgba(0, 0, 0, 0.8);
+}
+.navbar-default .navbar-toggle .icon-bar {
+ background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+ border-color: #fff;
+}
+.navbar-default {
+ width: auto;
+}
+.navbar-header {
+ float: none;
+}
+
+.navbar-brand {
+    padding: 5px 0;
+}
+
+
+
+
+.mfp-container {
+    height: auto !important;
+}
+
+
+
+.mfp-arrow-left::before {
+    margin-left: 0;
+    transform: scale(0.7);
+}
+
+
+.mfp-arrow-left::after {
+    margin-left: 6px;
+    transform: scale(0.7);
+}
+
+
+.mfp-arrow-right::after {
+   
+    margin-left: 59px;
+ transform: scale(0.7);
+}
+
+
+.mfp-arrow::before, .mfp-arrow::after {
+  
+    margin-left: 56px;
+   transform: scale(0.8);
+}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	
+.navbar-default
+{
+	 width: auto;
+}
+
+.navbar-nav
+{
+	margin-left: 10px;
+}
+
+.heading h3
+{
+	font-size: 76px;
+}
+
+.eat-drink-heading
+{
+	margin-left: 0;
+	width: 100%;
+	position: sticky;
+	padding-top: 180px;
+}
+
+.eat-drink-heading h4 {
+	font-size: 70px;
+	 letter-spacing: 8px;
+}
+
+.banner-video > img {
+    height:auto;
+    width: 100%;
+}
+
+.home-banner
+{
+	min-height: auto;
+	width: 100%;
+}
+
+.heading {
+    margin-top: 250px;
+}
+
+.home-banner .btn-info
+{
+	margin-bottom: 30px;
+}
+
+.eat-drink
+{
+	 min-height: 500px;
+}
+
+/*single-room*/
+
+#pop-area
+{
+	margin: 250px auto auto !important;
+}
+
+.heading h4
+{
+	margin-top: 210px;
+}
+
+#popup
+{
+	  padding: 0  !important;
+    width: 100%  !important;
+}
+
+/*rooms*/
+
+.rooms-inner
+{
+	 width: 100%;
+}
+
+.rooms-page {
+    margin: 250px 0 0;
+}
+
+.rooms-first
+{
+	margin-top: 90px !important;
+}
+
+.heading h4
+{
+	  font-size: 70px;
+}
+
+/*eat-drink-content*/
+
+.eat-drink-content
+{
+	margin: 250px 0 50px;
+}
+
+.eat-drink-part
+{
+	 width: 100%;
+	 margin-bottom: 30px;
+}
+
+
+.actions {
+    margin: 50px 80px 80px -50px;
+}
+
+
+/*events*/
+
+.events-inner
+{
+	margin-top: 250px;
+	margin-bottom: 50px;
+}
+
+
+/*gallery*/
+
+.row.gallery
+{
+	margin-top:250px !important;
+}
+
+
+
+
+
+
+
+/*contact*/
+
+.contact-top {
+    margin-top: 250px;
+}
+
+
+.home-book .form
+{
+	 margin-top: -50px;
+}
+
+
+	
+
+}
+
+
+ @media only screen and (min-width: 768px) and (max-width: 999px) {
+	 
+/*menu*/
+
+.navbar-default
+{
+	width: auto;}
+
+.navbar-collapse
+{
+	padding-left: 0;
+}
+
+.navbar-nav
+{
+	 margin-left: 0;
+}
+
+.nav > li > a
+{
+	padding: 10px 10px;
+	}
+
+.navbar-default li
+{
+	margin-right: 0;
+}
+
+
+	
+/*home-page*/
+.home-banner
+{
+	min-height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.banner-video > img {
+    height:auto;
+    width: 100%;
+}
+
+.heading {
+    margin-top: 190px;
+}
+
+.home-banner .btn-info
+{
+	 margin-bottom: 25px;
+	  margin-top: 15px;
+}
+
+.heading h3
+{
+	  font-size: 56px;
+}
+
+.eat-drink-heading
+{
+	width: 100%;
+	  margin-left: 0;
+	  padding-top: 180px;
+	  position: sticky;
+	  
+}
+
+.eat-drink-heading h4{
+	font-size: 50px;
+	 letter-spacing: 8px;
+}
+.eat-drink {
+	
+    min-height: 500px;
+}
+
+/*single-room*/
+
+.overlay-inner {
+    max-height: 384px;
+}
+
+#popup
+{
+	padding: 0 !important;
+    width: 100% !important;
+}
+
+#pop-area
+{
+	 margin: 170px auto auto !important;
+}
+
+.heading h4
+{
+	font-size: 60px;
+}
+
+/*room*/
+
+.rooms-page {
+    margin: 200px 0 0;
+}
+
+.rooms-first
+{
+	  margin-top: 50px !important;
+}
+
+.rooms-inner
+{
+    width: 100%;
+}
+
+/*eat-drink-content*/
+
+.eat-drink-content
+{
+	margin: 220px 0 50px;
+}
+
+.eat-drink-part
+{
+	 width: 100%;
+}
+
+.menu-card-part {
+    float: left;
+    width: 50%;
+}
+
+.menu-price-part {
+    float: left;
+    width: 50%;
+}
+
+.actions {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+/*events*/
+
+.events-inner {
+    margin-top: 200px;
+}
+
+/*gallery*/
+
+.row.gallery
+{
+	margin-top:200px !important;
+}
+
+/*about*/
+
+.about-actions {
+    margin-left: -50px !important;
+}
+
+
+
+.about-services [data-tooltip]::before {
+    width: auto;
+}
+
+
+
+/*contact*/
+
+.overlay-contact {
+    max-height: 382px;
+}
+
+.contact-top {
+    margin-top: 200px;
+}
+
+.contact-map-part {
+    float: left;
+    width: 50%;
+	
+}
+
+.contact-form-part {
+    float: left;
+    width: 50%;
+}
+
+
+/*form*/
+
+.date {
+    float: left;
+    width: 50%;
+}
+
+
+.modal-dialog {
+    margin: 0px;
+
+}
+
+.modal-dialog {
+    margin: 0px;
+
+}
+
+
+.home-book .form {
+   
+     max-height: 400px;
+    overflow: scroll;
+  
+    width: 100%;
+}
+
+
+.book.home-book {
+    margin-top: 50px;
+}
+
+
+
+.home-book .close {
+
+    margin-right: 0px;
+   
+}
+
+
+
+
+
+	 
+
+
+
+
+}
+ @media only screen and (min-width: 481px) and (max-width: 767px) {
+	 
+
+	
+/*home-page*/
+
+.home-banner
+{
+	 width: 100%;
+	 min-height: auto;
+}
+.heading h3
+{
+	font-size: 56px;
+}
+
+.banner-video > img {
+     height: 400px;
+}
+
+.heading {
+    margin-top: 200px;
+}
+
+.home-banner .btn-info
+{
+	margin-bottom: 20px;
+    margin-top: 20px;
+	font-size: 15px;
+}
+
+.share
+{
+	right: 20px;
+}
+
+.eat-drink-heading
+{
+	padding-top: 200px;
+    position: sticky;
+	 width: 100%;
+	 margin-left: 0;
+}
+
+.eat-drink-heading h4
+{
+	font-size: 40px;
+	letter-spacing: 8px;
+}
+.eat-drink {
+    min-height: 500px;
+}
+
+
+/*inner-room*/
+
+#pop-area
+{
+	 margin: 120px auto auto !important;
+}
+
+.overlay-inner {
+    max-height: 320px;
+}
+
+#popup
+{
+	padding: 0 !important;
+    width: 100% !important;
+}
+
+.heading h4
+{
+	 font-size: 50px;
+}
+/*rooms*/
+
+.rooms-page {
+    margin: 150px 0 0;
+}
+
+.rooms-first
+{
+	margin-top: 40px !important;
+}
+
+.rooms-inner
+{
+    width: 100%;
+}
+
+/*eat-drink-content*/
+
+.eat-drink-content
+{
+	margin: 150px 0 50px;
+}
+
+.eat-drink-part
+{
+	 width: 100%;
+}
+
+.menu-card-part {
+    float: left;
+    width: 50%;
+}
+
+.menu-price-part {
+    float: left;
+    width: 50%;
+}
+
+.actions {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+/*events*/
+
+.events-inner {
+    margin-bottom: 40px;
+}
+
+
+/*gallery*/
+
+
+
+.thumb {
+    width: 50%;
+}
+
+/*about*/
+
+.about-services [data-tooltip]::before {
+    width: auto;
+}
+
+
+
+.about-actions {
+    margin-left: 0;
+}
+
+/*contact*/
+
+.overlay-contact {
+    max-height: 320px;
+    
+}
+
+.contact-map-part {
+    float: left;
+    width: 50%;
+	
+}
+
+.contact-form-part {
+    float: left;
+    width: 50%;
+}
+
+/*form*/
+
+.date {
+    float: left;
+    width: 50%;
+}
+
+
+.modal-dialog {
+    margin: 0px;
+
+}
+
+.modal-dialog {
+    margin: 0px;
+
+}
+
+
+.home-book .form {
+   
+      max-height: 400px;
+    overflow: scroll;
+  
+    width: 100%;
+}
+
+
+.book.home-book {
+    margin-top: 50px;
+}
+
+
+
+.home-book .close {
+
+    margin-right: 0px;
+   
+}
+
+
+
+}
+ @media only screen and (min-width: 230px) and (max-width: 480px) {
+	
+
+/*home*/	 
+.share
+{
+	 display: none;
+}
+
+.banner-video > img {
+    height:400px !important;
+}
+.heading h3
+{
+	font-size: 46px;
+}
+
+.home-banner
+{
+	 width: 100%;
+	 min-height: auto;
+}
+
+.heading h3
+{
+	  font-size: 46px;
+ }
+
+.heading {
+    margin-top: 100px;
+}
+
+.home-banner .btn-info
+{
+	 font-size: 14px;
+    margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.btn-lg, .btn-group-lg > .btn
+{
+	padding: 8px 14px;
+}
+
+.eat-drink
+{
+	min-height: 400px;
+}
+
+.eat-drink-heading
+{
+	width: 100% !important;
+	padding-top: 130px;
+	 margin-left: 0;
+	 position: sticky;
+}
+
+.eat-drink-heading h4
+{
+	font-size: 35px;
+	letter-spacing: 5px;
+	
+}
+
+.modal-dialog
+{
+	width: 100%;
+}
+
+/*end*/
+
+/*single-inner*/
+
+.heading h4
+{
+	font-size: 30px;
+}
+
+.inner-banner-title
+{
+	margin-top: 70px;}
+
+
+.inner-banner img
+{
+	   max-height: 160px;
+}
+	
+
+.overlay-inner {
+    max-height: 160px;
+}
+
+
+#popup
+{
+	padding: 0 !important;
+    width: 100% !important;
+	margin-top:100px !important;
+}
+
+.modal-header .modal-title
+{
+	font-size: 16px;
+}
+
+.room-detail{
+	 margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+.sidebar{
+	 margin-top: 25px;
+}
+
+/*rooms*/
+
+.rooms-inner
+{
+    width: 100%;
+}
+
+.rooms-first
+{
+	margin-top: 20px !important;
+}
+
+.rooms-inner-title h4
+{
+	font-size: 20px;
+}
+
+.room-ad-content h4
+{
+	 font-size: 18px;
+}
+
+.room-info h4
+{
+	font-size: 32px;
+}
+
+
+/*eat-drink-part*/
+
+
+.eat-drink-part
+{
+	width: 100%;
+}
+
+.menu-card-img
+{
+	  margin-right: 0;
+}
+
+.actions {
+    margin: 20px;
+}
+
+/*events*/
+
+.events-inner {
+    margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.event-content.text-center {
+    margin-top: 40px;
+}
+
+/*gallery*/
+
+.row.gallery
+{
+	margin-top:100px !important;
+}
+
+/*about*/
+
+.about-actions {
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.about-services h4
+{
+	font-size: 16px;
+}
+
+.about-services ul li, .about-services p
+{
+	 font-size: 14px;
+}
+
+.about-actions > h4
+{
+	 font-size: 14px;
+}
+
+.about-services [data-tooltip]::before {
+    width: auto;
+}
+
+/*contact*/
+
+.overlay-contact {
+    max-height: 160px;
+}
+
+.contact-top {
+    margin-top: 100px;
+}
+
+.contact-top h4
+{
+	 font-size: 16px;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+/*form*/
+
+.date {
+    float: left;
+    width: 50%;
+}
+
+
+.modal-dialog {
+    margin: 0px;
+
+}
+
+.modal-dialog {
+    margin: 0px;
+
+}
+
+
+.home-book .form {
+   
+     max-height: 400px;
+    overflow: scroll;
+  
+    width: 100%;
+}
+
+
+.book.home-book {
+    margin-top: 50px;
+}
+
+
+
+.home-book .close {
+
+    margin-right: 0px;
+   
+}	 
+
+}
+
+
+
+
+

@@ -1,0 +1,1150 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "LuloCleanW01-OneBold";
+	src: url(../fonts/Lulo-clean.ttf)
+}
+@font-face {
+	font-family: "BelindaW00-Regular";
+	src: url(../fonts/Belinda.ttf);
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	outline:0;
+}
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+a {
+	outline: 0;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	
+	outline: 0;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+p {
+	color: #555;
+	margin: 0;
+	font-size: 16px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	color: #555;
+	list-style: none;
+}
+form {
+	margin-bottom: 5px;
+}
+.form-control {
+	border-radius: 0;
+	background-color: #E3E0DD;
+	border: 0;
+}
+.js div#preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background: #fff url(../images/wind.gif) no-repeat center center;
+}
+.share {
+	position:fixed;
+	top: 45%;
+	z-index: 15;
+	right: 50px;
+}
+.share ul li {
+	padding-bottom: 10px;
+}
+.header {
+	background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+   /* margin-top: 30px;*/
+    position: absolute;
+   /* top: 10px;*/
+    width: 100%;
+    z-index: 2;
+	
+}
+.navbar-default {
+	background-color: transparent !important;
+	border: 0 none;
+	margin: 0 auto;
+	width: 1200px;
+	z-index: 9;
+}
+.navbar-default li {
+	margin-right: 8px;
+}
+.navbar-default li a {
+	color: #fff !important;
+	background-color: transparent !important;
+}
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+	border-bottom: 3px solid #fff;
+	color: #555;
+}
+
+.book-now {
+    float: left;
+	background-color: #d48e28;
+    color: #fff;
+	margin-top:10px;
+
+}
+
+.modal-content
+{
+	border:none;
+}
+	
+
+
+.navbar-nav {
+    float: left;
+	margin-left: 50px;
+}
+
+.navbar-header {
+    float: right;
+}
+.active {
+	background-color: transparent;
+	border-bottom: 3px solid #fff;
+	color: #555;
+}
+/*about*/
+.about-services img {
+	width: 32px;
+	margin-right: 10px;
+}
+.about-services ul ul li {
+	list-style: outside none none;
+}
+
+.general li:nth-child(10), .general li:nth-child(11){
+	margin-top:32px;
+	
+	
+}
+
+.navbar-default li a:hover {
+  border-bottom: 3px solid #fff;
+}
+.home-banner {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+	z-index: 15;
+	min-height: 550px;
+}
+
+
+.home-banner .btn-info {
+    background-color: transparent;
+    border-color: #fff;
+	border-radius:0;
+    color: #fff;
+	margin-top:70px;
+	 font-size: 16px;
+}
+
+.home-banner .btn-info:focus {
+	background-color:#999;
+	
+	
+}
+
+.banner-video {
+    position: absolute;
+    top: 0;
+    width: 100%;
+	
+}
+
+.banner-video > img {
+    width: 100%;
+	height: 850px;
+}
+
+
+.banner-video video {
+	width: 100%;
+}
+.social-icons {
+    margin: 270px 0;
+    padding: 130px 90px;
+}
+
+.heading {
+    /*margin-left: 117px;*/
+  margin-top: 300px;
+  
+}
+.heading h4 {
+	font-family: "LuloCleanW01-OneBold";
+	color: #fff;
+	font-size: 100px;
+	letter-spacing: 70px;
+	margin-left: -80px;
+}
+.heading h3 {
+	font-family: "BelindaW00-Regular";
+	color: #fff;
+	font-size: 86px;
+	/*margin-left: -190px;*/
+}
+.book-btn {
+	margin: 50px 0;
+}
+.book-btn a {
+	color: #fff;
+	padding: 10px 15px;
+	border: 3px solid #fff;
+}
+.book-btn a:hover {
+	
+}
+.form {
+	padding: 8px 0;
+}
+.btn-primary {
+	border-radius: 0;
+	width: 100%;
+	background: #B7B7B7;
+	border: 0;
+	border: 1px solid #B7B7B7;
+}
+.eat-drink {
+	background-attachment: fixed;
+	background-image: url(../images/home-page/eat-drink.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 700px;
+	position: relative;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+	background: rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.eat-drink-heading {
+	margin-left: 100px;
+	padding-top: 230px;
+	position: absolute;
+	text-align: center;
+	width: 960px;
+	z-index: 12;
+}
+.eat-drink-heading h4 {
+	font-family: "LuloCleanW01-OneBold";
+	color: #fff;
+	font-size: 80px;
+	letter-spacing: 10px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.eat-drink-heading a {
+	border: 3px solid #fff;
+	color: #fff;
+	padding: 10px 30px;
+}
+.eat-drink-heading a:hover {
+	background: #B7B7B7;
+	border: 0;
+	border: 3px solid #B7B7B7;
+}
+.rooms {
+	background-image: url(../images/home-page/rooms.jpg);
+}
+.about {
+	background-image: url(../images/home-page/about.jpg);
+}
+.events {
+	background-image: url(../images/home-page/event.jpg);
+}
+.contact {
+	background-image: url(../images/home-page/contact.jpg);
+}
+.inner-banner {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	
+}
+.inner-banner img {
+	max-height: 475px;
+	object-fit: cover;
+	width: 100%;
+}
+.overlay-inner {
+	max-height: 475px;
+	/*top:55px;*/
+}
+.inner-banner-title {
+	width: 100%;
+	margin-top: 155px;
+	min-height: 270px;
+}
+.inner-banner-title .heading {
+	margin: 0;
+}
+.inner-banner-title .heading h4 {
+	letter-spacing: 0px;
+	margin-left: 0px;
+}
+.eat-drink-part {
+	margin: 0px auto;
+	width: 800px;
+}
+.eat-drink-content {
+	margin: 0 0 50px;
+	margin-top:100px;
+}
+.eat-drink-content p {
+	line-height: 30px;
+}
+.schedule {
+	margin: 20px 0;
+}
+.schedule h4 {
+	font-family: "LuloCleanW01-OneBold";
+	margin-bottom: 10px;
+}
+.no-padding {
+	padding: 0;
+}
+.rooms-page {
+	margin: 70px 0 0;
+	margin-top:100px;
+}
+.rooms-full-list {
+	margin: 0px 0 15px;
+}
+.rooms-full-list ul li {
+	margin-bottom: 5px;
+}
+/* Starts calender*/
+	
+	
+	
+.rooms-first{
+	border-top:1px solid #92aed7;
+	padding-top:30px;
+	  margin-top: 130px !important;
+}
+	
+#ui-datepicker-div{
+	position:relative;
+	margin-top:16px;
+
+}
+
+
+
+#ui-datepicker-div:before{
+	position:absolute;
+	top:-16px;
+	left:20px;
+	width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 16px 16px 16px;
+border-color: transparent transparent#E3E0DD transparent;
+}
+
+.ui-widget-content {
+	background: #E3E0DD !important;
+}
+.ui-widget-header, .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	background-color: transparent !important;
+	border: 0 !important;
+}
+.ui-widget-header, .ui-datepicker th {
+	font-weight: normal !important;
+}
+
+.ui-datepicker th {
+	font-size:12px !important;
+}
+
+/*Ends calender*/
+
+
+
+
+.rooms-inner {
+	margin: 50px auto 0;
+	width: 850px;
+}
+.hold {
+	position: relative;
+}
+.modal-dialog {
+	/*margin: 0 auto;*/
+	width: 630px;
+}
+.modal-content {
+	box-shadow: none;
+	background-color:transparent;
+	
+}
+.modal, .modal-backdrop {
+  /* position: absolute !important;*/
+	top: 35px;
+}
+.modal-backdrop {
+	z-index: -1;
+	background-color: #fff;
+	
+}
+.modal-open {
+	overflow: auto;
+	
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+
+.modal-open .modal {
+/*	background-color: #fff;*/
+	overflow-y: hidden !important;
+	 background-color:rgba(45, 43, 43,0.9);
+	  overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+
+.modal-footer {
+  /*  border-top: 1px solid #e5e5e5;*/
+    padding: 15px;
+    text-align: center;
+	color:#fff;
+	font-size:30px;
+	border-top:none;
+	
+}
+.modal.fade .modal-dialog, .modal.in .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+.modal-header .close {
+	
+	/*padding-right: 30px;*/
+	position: relative;
+	color:#fff;
+	text-shadow:none;
+}
+
+.modal-header .close:hover
+{
+	opacity: 1;
+	color:#fff;
+}
+
+.modal-body
+{
+	padding:0 15px;
+}
+.modal-header .close:after {
+	position: absolute;
+	bottom: 5px;
+	right: 0;
+	width: 1px;
+	height: 20px;
+	/*background-color: #93AFD9;*/
+	content: "";
+	margin-right: 15px;
+}
+.modal-header {
+	border-bottom: 1px solid #e5e5e5;
+	padding: 15px 15px 15px 0;
+}
+.modal-header .modal-title {
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 24px;
+}
+.rooms-list .btn-primary:hover, .rooms-book .btn-primary:hover {
+	background-color: #B7B7B7;
+	border: 1px solid #B7B7B7;
+}
+
+.rooms-list .thumbnail{
+	border:0;
+}
+.rooms-list .parent-container:nth-child(2), .rooms-list .parent-container:nth-child(3), .rooms-list .parent-container:nth-child(4),
+.rooms-list .parent-container1:nth-child(2), .rooms-list .parent-container1:nth-child(3), .rooms-list .parent-container1:nth-child(4),
+.rooms-list .parent-container2:nth-child(2), .rooms-list .parent-container2:nth-child(3), .rooms-list .parent-container2:nth-child(4),
+.rooms-list .parent-container3:nth-child(2), .rooms-list .parent-container3:nth-child(3), .rooms-list .parent-container3:nth-child(4), .rooms-list .parent-container3:nth-child(5),
+.rooms-list .parent-container4:nth-child(2), .rooms-list .parent-container4:nth-child(3), .rooms-list .parent-container4:nth-child(4), .parent-container4:nth-child(5){
+	float: left;
+    visibility: hidden;
+    z-index: -999;
+	 height: 0;
+}
+.rooms-book .form-control {
+	cursor: pointer;
+}
+.rooms-book input[type=text] {
+	background-image: url(../images/calendar.png);
+	background-repeat: no-repeat;
+	background-position: 95%;
+	z-index:-1;
+}
+.rooms-book .form input[type=number] {
+	position: relative;
+	/*	background-image:url(../images/arrows.jpg);
+	background-repeat:no-repeat;
+	  -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	-moz-appearance: textfield;
+	 background-position: 95% 0;*/
+	/* -moz-appearance:textfield;*/
+	font-size: 12px;
+}
+.rooms-book .form span {
+	position: absolute;
+	bottom: 10px;
+	left: 25px;
+	font-size: 12px;
+}
+ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+ /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; */
+}
+ .form-control::-moz-placeholder {
+ color: #333;
+ opacity: 1;
+ font-size:12px;
+}
+.rooms-inner-title h4 {
+	margin-bottom: 20px;
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 26px;
+}
+.rooms-book {
+	border-bottom: 1px solid #94b0da;
+	border-top: 1px solid #94b0da;
+	padding: 20px 0;
+}
+.home-book .form-control {
+	background-color: transparent !important;
+	border: 1px solid #ccc !important;
+	color: #ccc;
+}
+
+
+.home-book .book-name input[type="text"] {
+    background-image: url("../images/calendar-white.png");
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    z-index: -1;
+	background-image:none;
+}
+.home-book input[type=text] {
+	background-image: url(../images/calendar-white.png);
+	background-repeat: no-repeat;
+	background-position: 98%;
+	z-index:-1
+}
+.home-book .form {
+	background: rgba(0,0,0,0.4);
+	 margin-top: -20px;
+	 padding-bottom:20px;
+}
+ .home-book .form-control::-moz-placeholder {
+ color:#ccc;
+}
+
+.home-popup-note p{
+	margin-top:10px;
+	color:#fff;
+	text-align:center;
+}
+
+
+.home-book label {
+	font-size: 14px;
+	margin-bottom: 5px;
+	 padding: 10px 0;
+	color: #fff;
+}
+.form .form-control {
+	background-color: transparent;
+	border: 1px solid #C9C7C7;
+	/*padding:10px;*/
+}
+.home-book .btn-primary {
+	background-color:transparent;
+	border: 3px solid #FFF;;
+	 padding:10px 15px;
+    margin-top:20px;
+    
+}
+
+.home-book .close{
+	margin-right:20px;
+	margin-top:20px ;
+	color:#fff;
+	 opacity: 0.5 !important;
+    text-shadow:none !important;
+	
+}
+
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary.focus:active, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus{
+background-color: #B7B7B7 !important;
+
+}
+.rooms-list {
+	border-bottom: 1px solid #92AED7;
+	margin: 30px auto 10px;
+	padding-bottom: 30px;
+}
+
+.room-icons{
+	margin-bottom:30px;
+	
+}
+
+.room-img {
+	position: relative;
+}
+.room-img-info {
+	bottom: 3px;
+	position: absolute;
+	right: 14px;
+	opacity: 0;
+}
+.room-img:hover + .room-img-info {
+	opacity: 1;
+}
+.room-img-info a {
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	padding: 5px;
+}
+.room-img-info:hover {
+	opacity: 1;
+}
+.room-img img {
+	width: 100%;
+	min-height: 190px;
+	object-fit: cover;
+	width: 100%;
+}
+.room-ad-content > p {
+	font-size: 14px;
+}
+.room-ad-content li {
+	font-size: 12px;
+	list-style: inside none disc;
+	margin-bottom: 5px;
+}
+.room-ad-content h4 {
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.room-ad-content ul {
+	margin: 25px 0 10px;
+}
+.room-facilites {
+	border-top: 1px solid #94B0DA;
+	padding-top: 11px;
+}
+.room-facilites li {
+	display: inline-block;
+}
+.room-facilites img {
+	height: auto;
+	width: 38px;
+	padding-right: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+ /* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+ position: relative;
+ z-index: 2;
+ cursor: pointer;
+}
+/* Hide the tooltip content by default */
+[data-tooltip]:before, [data-tooltip]:after {
+	visibility: hidden;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+ filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+	opacity: 0;
+	pointer-events: none;
+}
+/* Position tooltip above the element */
+[data-tooltip]:before {
+	position: absolute;
+	bottom: 120%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -20px;
+	padding: 5px;
+	width: auto;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #fff;
+	border: 1px solid #94b0da;
+	color: #000;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.2;
+}
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+	position: absolute;
+	bottom: 120%;
+	left: 50%;
+	margin-left: -10px;
+	width: 0;
+	border-top: 5px solid #94b0da;
+	border-top: 5px solid rgba(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before, [data-tooltip]:hover:after {
+	visibility: visible;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+ filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+	opacity: 1;
+}
+.room-info {
+	margin-top: 25px;
+}
+.room-info h5 {
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.room-info h4 {
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.room-info a {
+	background: #B7B7B7;
+	padding: 10px;
+	color: #fff;
+	width: 100%;
+	padding: 8px 30px;
+}
+.flex-control-thumbs li {
+	padding-right: 5px;
+	width: 15% !important;
+}
+.rooms-cart-select .form-control {
+	border-bottom: 0;
+}
+ .rooms-cart-select .form-control::-moz-placeholder {
+ color: #333;
+ opacity: 1;
+}
+
+
+.rcalendar {
+    background-image: url("../images/calendar.png");
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+
+
+/*.rooms-cart-select .form input[type="text"] {
+    background-image: url("../images/calendar.png");
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+*/
+
+.note-point{
+	margin:10px auto;
+}
+
+.note-point h5{
+	font-weight:600;
+	margin-bottom:5px;
+	
+	
+}
+
+.rooms-last-feild input {
+	border-bottom: 1px solid #ccc !important;
+	
+}
+
+.rooms-cart-select .form input[type="number"] {
+    font-size: 12px;
+    position: relative;
+}
+
+.rooms-cart-select .form span{
+	font-size: 12px;
+    left: 38px;
+    margin-top: -23px;
+    position: absolute;
+}
+.sidebar {
+	border: 1px solid #94b0da;
+	margin-top: 65px;
+}
+.room-cart-heading {
+	border-left: 1px solid #94b0da;
+	padding-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.room-cart-heading h2 {
+	font-size: 32px;
+}
+.rooms-cart-select .btn-primary {
+	padding: 10px 20px;
+	margin-top: 30px;
+}
+
+.rooms-cart-select .btn-primary:hover {
+	background-color:#b7b7b7;
+	border:1px solid #b7b7b7 ;
+}
+.room-detail {
+	border-bottom: 1px solid #94b0da;
+	margin-top: 50px;
+	padding-bottom: 30px;
+}
+
+.room-detail a, .room-detail a:hover  {
+    color: #000;
+}
+
+
+.room-detail h5 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.room-detail p {
+	line-height: 24px;
+}
+.room-detail img {
+	margin-right: 10px;
+}
+/*about*/
+.about-content p {
+	margin-bottom: 10px;
+}
+.about-services h4 {
+	font-family: "LuloCleanW01-OneBold";
+	margin-bottom: 30px;
+	font-size: 22px;
+	text-align: center;
+}
+.about-services ul li {
+	list-style: none;
+}
+.about-services ul li, .about-services p {
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 14px;
+}
+.about-services ul ul {
+	padding-left: 30px;
+	border-top: 1px solid #94b0da;
+	border-bottom: 1px solid #94b0da;
+	margin: 28px 0;
+}
+.about-services ul ul li {
+	display: inline-block;
+	margin: 10px 0 5px;
+	margin-right: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: auto;
+}
+.about-services [data-tooltip]::before {
+	width: 150px;
+}
+ .about-services [data-tooltip]::before:first-child {
+ width:350px;
+}
+/*event-page*/
+
+.eat-drink-part a {
+	border: 3px solid #000;
+	color: #000;
+	padding: 10px 15px;
+}
+.event-content.text-center {
+	margin-top: 60px;
+}
+.event-content h4 {
+	font-family: "LuloCleanW01-OneBold";
+	font-size: 18px;
+}
+.event-content span {
+	line-height: 30px;
+}
+.event {
+	margin: 40px;
+}
+.event-content> p {
+	margin-top: 30px;
+	line-height: 1.9em;
+}
+.events-inner {
+	width: 960px;
+	text-align: center;
+	margin-top: 150px;
+}
+.event >a:hover {
+	background-color: #94B0DA;
+	border-color: #94B0DA;
+	color: #ffffff;
+}
+/*contact-page*/
+
+.overlay-contact {
+	max-height: 475px;
+	top:0px;
+}
+
+
+.contact-top {
+	margin-top: 150px;
+}
+.contact-top h4 {
+	font-family: "LuloCleanW01-OneBold";
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.contact-content {
+	margin: 20px 0;
+}
+.contact-content >p {
+	margin: 10px;
+}
+.contact-form .form .form-control {
+	border: 3px solid #000;
+}
+ .contact-form .form-control::-moz-placeholder {
+ color: #999;
+}
+.contact-form .form-control {
+	background-color: transparent;
+	border: 3px solid#000;
+	margin: 5px;
+	resize: none;
+}
+.msg {
+	color: green;
+	margin: 0 5px;
+	text-align: left;
+}
+.error {
+	color: red;
+	float: left;
+	margin: 0 5px;
+	text-align: left;
+	width: 100%;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+.submit {
+	border: none;
+	margin-top: 5px;
+	background-color: #FFF;
+	float: right;
+}
+.social-media {
+	margin: 50px 0;
+}
+.social-media li {
+	display: inline;
+	margin-right: 25px;
+}
+
+.social-media li a{
+	border:0;
+	padding:0;
+}
+
+.social-media img {
+	width: 24px;
+}
+.footer-area {
+	background: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+.footer-area p {
+	font-size: 12px;
+}
+.footer-area a {
+	color: #000;
+}
+.header2 {
+	margin: 0px auto 0;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+	background: rgba(0,0,0,0.8);
+}
+.hold2 {
+	margin-top: 80px;
+	position: relative;
+}
+.eat-drink-part2 {
+	margin-top: 120px;
+}
+.events-inner2 {
+	margin-top: 130px !important;
+}
+.navbar-brand {
+	padding-top: 10px;
+}
+.navbar-brand2 {
+	padding-top: 5px;
+}
+#datepicker-8 {
+	cursor: pointer;
+}
+#datepicker-9 {
+	cursor: pointer;
+}
+
+.menu-card > h4 {
+	 font-family: "LuloCleanW01-OneBold";
+    margin-bottom: 10px;
+}
+
+.actions {
+    margin: 80px 80px 80px -50px;
+}
+
+
+.actions i {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.actions > h4
+{   font-family: "LuloCleanW01-OneBold";
+    margin-bottom: 10px;
+}
+	
+
+.parent-container5 {
+	margin:0 auto;
+   
+	width: 280px;
+}
+
+.parent-container5:nth-child(2), .parent-container5:nth-child(3), .parent-container5:nth-child(4), .parent-container5:nth-child(5), .parent-container5:nth-child(6), .parent-container5:nth-child(7) {
+    float: left;
+    height: 0;
+	visibility:hidden;
+	
+}
+
+
+.parent-container5 .thumbnail{
+	border:0;
+}
+
+.actions a
+{
+	border:0;
+}
+
+.menu-card-img {
+    margin-right: -100px;
+}
+
+optgroup {
+    background-color: #333;
+    color: #fff;
+}
+
+
+.about-actions{
+	margin-top:80px;
+	margin-left:-160px;
+}
+
+.about-actions a {
+    border: 0 none;
+}
+
+/*.about-actions > p {
+    padding: 10px;
+}*/
+
+.about-actions i {
+    font-size: 20px;
+}
+
+.about-actions a {
+    border: 0 none;
+    color: #555;
+   
+}
+
+.about-actions  > h4 {
+    font-family: "LuloCleanW01-OneBold";
+    margin-bottom: 10px;
+}
+
+
+}
+
+
+
